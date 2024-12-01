@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Desafío 2 - Javascript</title>
+  </head>
+
+  <body>
+    <!-- Problema 1 -->
+    <section class="cliquear-imagen">
+      <h1>Da clic sobre la imagen</h1>
+      <div class="imagen">
+        <img src="./assets/img/Diablo-IV.png" alt="Juego Diablo IV">
+      </div>
+    </section>
+
+
+    <!-- Problema 2 -->
+     <section class="comprar-stickers">
+      <h1>Cuántos Stickers quieres comprar?</h1>
+      <div class="contenedor-stickers">
+        <div class="sticker">
+          <img src="./assets/img/Chihiro.png" alt="Chihiro">
+          <h5>Chihiro</h5>
+          <input type="number" id="chihiro" min="0" max="10">
+        </div>
+        <div class="sticker">
+          <img src="./assets/img/Chihiro-SinCara.png" alt="Sin Cara">
+          <h5>Sin Cara</h5>
+          <input type="number" id="sin-cara" min="0" max="10">
+        </div>
+        <div class="sticker">
+          <img src="./assets/img/Chihiro_Haku.png" alt="Chihiro y Haku">
+          <h5>Chihiro y Haku</h5>
+          <input type="number" id="chihiro-haku"  min="0" max="10">
+        </div>
+      </div>
+
+       <div class="total-section">
+        <p>Total stickers: <span class="total-stickers">0</span> </p>
+       </div>
+       <div class="contenedorCalcular">
+        <button class="calcular">Calcular</button>
+       </div>
+     </section>
+
+
+
+    <!-- Problema 3 -->
+     <section class="contenedor-password">
+      <h1>Ingresa el password</h1>
+        <div class="contendorSelectores">
+          <select name="primerNumero" class="primerNumero">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+          <select name="segundoNumero" class="segundoNumero">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+          <select name="tercerNumero" class="tercerNumero">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+        <button class="comprobarNumero">Comprobar</button>
+        <p class="statusPassword"></p>
+     </section>
+
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
+

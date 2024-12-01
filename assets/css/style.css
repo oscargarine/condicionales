@@ -1,0 +1,60 @@
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cliquear-imagen h1{
+  text-align: center;
+  padding: 20px;
+}
+
+.cliquear-imagen .imagen{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.comprar-stickers .contenedor-stickers{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.comprar-stickers h1{
+  text-align: center;
+  padding: 20px;
+}
+
+.comprar-stickers p{
+  text-align: center;
+}
+
+.comprar-stickers .contenedor-stickers .sticker img{
+  padding: 5px;
+  height: 150px;
+}
+
+.contenedorCalcular{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-password h1{
+  text-align: center;
+  padding: 20px;
+}
+
+.contenedor-password{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
